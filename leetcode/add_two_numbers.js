@@ -24,12 +24,7 @@ You may assume the two numbers do not contain any leading zero, except the numbe
  * @param {ListNode} l2
  * @return {ListNode}
  */
-var addTwoNumbers = function(l1, l2) {
-    const num1 = parseInt(l1.reverse().join(''));
-    const num2 = parseInt(l2.reverse().join(''));
-    
-    const returnArr = Array.from((num1 + num2).toString()).reverse();
-    return(returnArr);
+var addTwoNumbers = function (l1, l2) {
 };
 
 const c = (args) => {console.log(args)}
